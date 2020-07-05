@@ -12,9 +12,7 @@ class Form extends React.Component {
 
     handleChange(event) {    this.setState({value: event.target.value});  }
     handleSubmit(event) {
-        console.log("from handleSubmit" + " " + this.state.value)
-        // 8. Add an onSubmit event handler for the form, this event handler should be defined in <Form /> and preventDefault()
-
+        console.log("from handleSubmit " + this.state.value)
       event.preventDefault();
     }
   

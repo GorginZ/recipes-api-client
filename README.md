@@ -11,10 +11,13 @@ Core
 4. Add these components to to <App />, remove the "hello world"
 5. Create a new component <Form />, it should render a form with 1 input:text for searching and an input:submit
 6. Render the <Form /> in the <Search /> component, remove the "on search"
-
 7. Add an onChange event handler to the search input in the form, ensure that the state for search is set every time something is typed
 8. Add an onSubmit event handler for the form, this event handler should be defined in <Form /> and preventDefault()
+
+
 9. Add a new function in <App /> named searchRecipes() it should take a search as a parameter, you then need to pass this function as a prop through <Search /> and <Form />
+
+
 10. Invoke the searchRecipes function you passed as a prop in the onSubmit event handler in <Form />, it should take the search state as an argument
 11. console.log the search parameter in searchRecipes, you have now successfully lifted state!
 12. Sign up to the https://spoonacular.com/food-api food api
